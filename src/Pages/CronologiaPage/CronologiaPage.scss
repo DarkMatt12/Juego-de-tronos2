@@ -1,0 +1,26 @@
+.Caja-btn{}
+
+.Caja-Personajes{
+   
+}
+.impar{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background-color: red;
+    width: 50%;
+}
+.par{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    background-color: blue;
+    margin-left: 50%;
+    width: 50%;
+}
+
+//prueba
+.btn{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,65 @@
+.Galeria-Personajes{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid rgb(66, 136, 0);
+    margin:  50px;
+    
+}
+.Personaje-Tarjeta{
+    position: relative;
+    margin: 5px;
+    width: 18%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    overflow:hidden;
+    /*width: 100px;
+
+    height: 200px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    border: 1px solid red;*/
+    .Personaje-img{
+    height: 125%;
+    
+   /* box-sizing: content-box;
+    object-fit: contain;
+    
+    justify-content: center;
+    border: 1px solid blue;
+    
+    height: 150px;
+   
+    min-width: 100%;*/
+}
+    
+}
+
+
+
+.h1-prueba{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    margin: 0px;
+    left: 0px;
+    top: 80%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: Game of Thrones;
+    color: white;
+}
+
+.Personaje-Tarjeta:hover .h1-prueba{
+    display: flex;
+}
+
+
